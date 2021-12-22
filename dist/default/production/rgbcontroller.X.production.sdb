@@ -1,0 +1,228 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1829 ]
+[d frameptr 6 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"111 C:\Users\aj97m\MPLABXProjects\rgbcontroller.X\main.c
+[v _ExternalPin ExternalPin `II(v  1 e 1 0 ]
+"169
+[v _main main `(v  1 e 1 0 ]
+"228
+[v _pattern1 pattern1 `(v  1 e 1 0 ]
+"246
+[v _pattern2 pattern2 `(v  1 e 1 0 ]
+"253
+[v _pattern3 pattern3 `(v  1 e 1 0 ]
+"260
+[v _pattern4 pattern4 `(v  1 e 1 0 ]
+"267
+[v _pattern5 pattern5 `(v  1 e 1 0 ]
+"276
+[v _pattern6 pattern6 `(v  1 e 1 0 ]
+"285
+[v _pattern7 pattern7 `(v  1 e 1 0 ]
+"294
+[v _pattern8 pattern8 `(v  1 e 1 0 ]
+"302
+[v _pattern9 pattern9 `(v  1 e 1 0 ]
+"308
+[v _setup_comms setup_comms `(v  1 e 1 0 ]
+"320
+[v _putch putch `(v  1 e 1 0 ]
+"328
+[v _getch getch `(uc  1 e 1 0 ]
+"343
+[v _pinConfig pinConfig `(v  1 e 1 0 ]
+"349 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1829.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"1183
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1233
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1272
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1764
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2948
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2995
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3031
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3284
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3304
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"3324
+[v _SPBRG SPBRG `VEus  1 e 2 @411 ]
+"3371
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+"3433
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+"3605
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"6161
+[v _IOCBN IOCBN `VEuc  1 e 1 @917 ]
+"6209
+[v _IOCBF IOCBF `VEuc  1 e 1 @918 ]
+"7094
+[v _BRGH BRGH `VEb  1 e 0 @3314 ]
+"7362
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"7466
+[v _IOCBN7 IOCBN7 `VEb  1 e 0 @7343 ]
+"7668
+[v _RA2 RA2 `VEb  1 e 0 @98 ]
+"7674
+[v _RA5 RA5 `VEb  1 e 0 @101 ]
+"7682
+[v _RB7 RB7 `VEb  1 e 0 @111 ]
+"7684
+[v _RC0 RC0 `VEb  1 e 0 @112 ]
+"7686
+[v _RC1 RC1 `VEb  1 e 0 @113 ]
+"7688
+[v _RC2 RC2 `VEb  1 e 0 @114 ]
+"7704
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"7712
+[v _RXDTSEL RXDTSEL `VEb  1 e 0 @2287 ]
+"7726
+[v _SPEN SPEN `VEb  1 e 0 @3311 ]
+"7800
+[v _SYNC SYNC `VEb  1 e 0 @3316 ]
+"7942
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1140 ]
+"7944
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1141 ]
+"7972
+[v _TXCKSEL TXCKSEL `VEb  1 e 0 @2282 ]
+"7974
+[v _TXEN TXEN `VEb  1 e 0 @3317 ]
+"7978
+[v _TXIF TXIF `VEb  1 e 0 @140 ]
+"362 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _hexpowers hexpowers `DC[4]ui  1 s 8 hexpowers ]
+"56 C:\Users\aj97m\MPLABXProjects\rgbcontroller.X\main.c
+[v _codearr codearr `ul  1 e 4 0 ]
+"169
+[v _main main `(v  1 e 1 0 ]
+{
+"182
+[v main@codehold codehold `ul  1 a 4 29 ]
+"227
+} 0
+"308
+[v _setup_comms setup_comms `(v  1 e 1 0 ]
+{
+"318
+} 0
+"343
+[v _pinConfig pinConfig `(v  1 e 1 0 ]
+{
+"361
+} 0
+"302
+[v _pattern9 pattern9 `(v  1 e 1 0 ]
+{
+"307
+} 0
+"294
+[v _pattern8 pattern8 `(v  1 e 1 0 ]
+{
+"301
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"1500
+[v printf@idx idx `uc  1 a 1 19 ]
+"528
+[v printf@val val `ui  1 a 2 21 ]
+"499
+[v printf@c c `c  1 a 1 24 ]
+"506
+[v printf@prec prec `c  1 a 1 23 ]
+"466
+[v printf@ap ap `[1]*.4v  1 a 1 20 ]
+"508
+[v printf@flag flag `uc  1 a 1 18 ]
+"464
+[v printf@f f `*.25DCuc  1 p 2 8 ]
+"1541
+} 0
+"320 C:\Users\aj97m\MPLABXProjects\rgbcontroller.X\main.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 0 ]
+"326
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0
+"285 C:\Users\aj97m\MPLABXProjects\rgbcontroller.X\main.c
+[v _pattern7 pattern7 `(v  1 e 1 0 ]
+{
+"293
+} 0
+"276
+[v _pattern6 pattern6 `(v  1 e 1 0 ]
+{
+"284
+} 0
+"267
+[v _pattern5 pattern5 `(v  1 e 1 0 ]
+{
+"275
+} 0
+"260
+[v _pattern4 pattern4 `(v  1 e 1 0 ]
+{
+"266
+} 0
+"253
+[v _pattern3 pattern3 `(v  1 e 1 0 ]
+{
+"259
+} 0
+"246
+[v _pattern2 pattern2 `(v  1 e 1 0 ]
+{
+"252
+} 0
+"228
+[v _pattern1 pattern1 `(v  1 e 1 0 ]
+{
+"245
+} 0
+"111
+[v _ExternalPin ExternalPin `II(v  1 e 1 0 ]
+{
+"116
+[v ExternalPin@count count `uc  1 a 1 8 ]
+[v ExternalPin@i i `uc  1 a 1 7 ]
+"167
+} 0
